@@ -18,6 +18,6 @@ public class Pusher : MonoBehaviour
     private void FixedUpdate()
     {
         //プッシャーを動かす
-        _rb.MovePosition(new Vector3(_startPos.x, _startPos.y, _startPos.z + Mathf.Sin(Time.time * 2)));
+        _rb.MovePosition(new Vector3(_startPos.x, _startPos.y, _startPos.z + Mathf.Sin(Time.time * 5)));
     }
 }
